@@ -48,9 +48,9 @@ const iconCopy = discordBtn.querySelector('.icon-copy');
 const iconCheck = discordBtn.querySelector('.icon-check');
 
 discordBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText("ZaatarDev").then(() => {
+    navigator.clipboard.writeText("ItzFortressGamer").then(() => {
         // Change UI to "Copied!"
-        discordText.textContent = "Copied 'ZaatarDev'!";
+        discordText.textContent = "Copied 'ItzFortressGamer'!";
         iconCopy.classList.add('hidden');
         iconCheck.classList.remove('hidden');
 
